@@ -1,0 +1,101 @@
+
+/* negative */
+@font-face {
+    font-family: "KarloffNegativePro-Bld";
+    src: url("../fonts/KarloffNegativePro-Bld.otf");
+    font-style: normal;
+    font-weight: 700;
+}   
+
+@font-face {
+    font-family: "KarloffNegativePro-BldIta";
+    src: url("../fonts/KarloffNegativePro-BldIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "KarloffNegativePro-Med";
+    src: url("../fonts/KarloffNegativePro-Med.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffNegativePro-MedIta";
+    src: url("../fonts/KarloffNegativePro-MedIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffNegativePro-Reg";
+    src: url("../fonts/KarloffNegativePro-Reg.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffNegativePro-RegIta";
+    src: url("../fonts/KarloffNegativePro-RegIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* neutural */
+@font-face {
+    font-family: "KarloffNeutralPro-Reg";
+    src: url("../fonts/KarloffNeutralPro-Reg.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffNeutralPro-RegIta";
+    src: url("../fonts/KarloffNeutralPro-RegIta.otf") format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* postitive */
+@font-face {
+    font-family: "KarloffPositivePro-Bld";
+    src: url("../fonts/KarloffPositivePro-Bld.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "KarloffPositivePro-BldIta";
+    src: url("../fonts/KarloffPositivePro-BldIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "KarloffPositivePro-Med";
+    src: url("../fonts/KarloffPositivePro-Med.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffPositivePro-MedIta";
+    src: url("../fonts/KarloffPositivePro-MedIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffPositivePro-Reg";
+    src: url("../fonts/KarloffPositivePro-Reg.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "KarloffPositivePro-RegIta";
+    src: url("../fonts/KarloffPositivePro-RegIta.otf") format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}

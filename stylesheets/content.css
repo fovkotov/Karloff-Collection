@@ -1,0 +1,701 @@
+:root {
+    --background-color-black: #161616;
+    --background-color-orange: #FFB600;
+    --background-color-pink: #FB2DCE; 
+    --text-color-gray: #C2C2C2;
+    --text-color-white: #fff; 
+}  
+
+html{
+    overflow-x: hidden;
+}
+
+
+.block_first{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fisrt_block_img{
+    width: 1440px;
+}
+
+.fisrt_block_img_txt{
+    position: absolute;
+    margin-top: -816px;
+    margin-left: 585px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+h1.hero_txt{
+    margin-bottom: 59px;
+    color: var(--background-color-black);
+    text-align: center;
+    font-family: 'KarloffPositivePro-BldIta';
+    font-size: 130px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 76.8%; /* 99.84px */
+    letter-spacing: -5.2px;
+}
+
+
+p.main {
+    font-family: 'KarloffNeutralPro-Reg';
+    color: var(--text-color-white);
+    font-size: 20px;
+}
+
+body{
+    background-color: var(--background-color-black);
+}
+
+/* объединение первых двух блоков для фона*/
+.background_color_orange{
+    background-color: var(--background-color-orange);
+    padding-bottom: 400px;
+}
+
+.side_collumn{
+    position: absolute;
+}
+
+/* 1 блок */
+
+.first_block {
+    margin: auto;
+    width: 1440px;
+    height: 907px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.first-block{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.hero_img{
+    margin-top: -120px;
+    margin-left: -80px;
+}
+
+.first_block_hero_image{
+    position: relative;
+}
+
+.first_heading{
+    margin: auto;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    margin-left: 250px;
+    align-items: center;
+}
+
+h1.hero_text{
+    color: var(--background-color-black);
+    text-align: center;
+    font-family: 'KarloffPositivePro-BldIta';
+    font-size: 130px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 76.8%;
+    letter-spacing: -5.2px;    
+    margin-bottom: 59px;
+    margin-left: -500px;
+    width: 1345px;
+}
+
+.hero_text_vertical{
+    margin-left: -50px;
+}
+
+/* 2 блок */
+
+.second_block{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -145px;
+    width: 1440px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.font_authors_container{
+    position: absolute;
+    padding-left: 30px;
+}
+
+.font_authors{
+    color: var(--background-color-black);
+    text-align: justify;
+    font-family: 'KarloffNeutralPro-Reg';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 68.45px;
+    text-transform: uppercase;
+    -webkit-text-stroke-color: var(--background-color-pink);
+    -webkit-text-stroke-width: 60px;
+    width: 1440px;
+}
+
+.font_authors_two_container{
+    position: absolute;
+    margin: auto;
+    width: 1440px;
+    top: -0px;
+}
+
+.font_authors_two{
+    color: var(--background-color-black);
+    text-align: justify;
+    font-family: 'KarloffNeutralPro-Reg';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 16.8px */
+    letter-spacing: 68.45px;
+    text-transform: uppercase;
+    width: 1440px;
+}
+
+.bg_text{
+    color: var(--text-color-white);
+    font-family: 'KarloffPositivePro-MedIta';
+    font-size: 71px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 46.86px;
+    letter-spacing: -3.55px;
+    text-align: justify;
+}
+
+.second_block_boy{
+    display: flex;
+    justify-content: space-between;
+    width: 1442px;
+    text-align: center;
+    position: absolute;
+    align-items: center;
+    top: -150px;
+}
+
+.block_about_font{
+    background-color: var(--background-color-pink);
+    width: 335px;
+    padding: 3px;
+    height: 218px;
+}
+
+p.about_font{
+    color: var(--text-color-white);
+    font-family: 'KarloffNeutralPro-Reg';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+}
+
+
+
+/* 3 блок */
+
+.third_block{
+    margin-top: -770px;
+    margin-bottom: -400px;
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.font_styles{
+    position: absolute;
+    width: 1440px;
+    top: 1946px;
+    margin-left: 200px;
+}
+
+h1.third_block_heading{
+    color: var(--background-color-orange);
+    text-align: center;
+    font-family: 'KarloffPositivePro-RegIta';
+    font-size: 134px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%; /* 187.6px */
+    letter-spacing: -9.38px;
+    margin-bottom: -48px;
+}
+
+.decoration_line{
+   position: absolute;
+   margin-left: 644px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+p.third_block_cupture{
+    color: var(--background-color-orange);
+    text-align: center;
+    font-family: Karloff Neutral Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    letter-spacing: 263.12px;
+    text-transform: uppercase;
+}
+
+
+.background_color_black{
+    background-color: #161615;
+}
+
+
+
+/* 4 блок */
+
+.fourth_block{
+    width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -78px;
+    margin-bottom: 80px;
+}
+
+.fourth_block_cards_neutural{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -90px;
+    width: 1440px;
+    height: 765px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_collumn{
+    display: flex;
+    height: 765px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+p.fourth_block_left_collumn_neutural{
+    font-family: 'KarloffNeutralPro-RegIta';
+    font-size: 32px;
+    color: var(--text-color-gray);
+}
+
+.cards_and_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+    flex: 1 0 0;
+}
+
+.cards_neutural{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.info_neutural{
+    display: flex;
+    padding-left: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+h2.info_neutural{
+    color: var(--text-color-gray);
+    font-family: 'KarloffNeutralPro-RegIta';
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p.info_paragraph{
+    color: var(--text-color-gray);
+    font-family: 'KarloffNeutralPro-RegIta';
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    width: 364px;
+}
+
+.fourth_block_cards_negative{
+    display: flex;
+    width: 1401px;
+    align-items: flex-start;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -250px;
+}
+
+.left_collumn_negative{
+    display: flex;
+    height: 1110px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+
+.left_collumn{
+    display: flex;
+    height: 765px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+p.fourth_block_left_collumn_negative{
+    font-family: 'KarloffNegativePro-BldIta';
+    font-size: 32px;
+    color: var(--text-color-gray);   
+}
+
+.cards_negative{
+    display: flex;
+    width: 1187px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0px 9px;
+    flex-wrap: wrap;
+}
+
+h2.info_negative{
+    color: var(--text-color-gray);
+    font-family: 'KarloffNegativePro-RegIta';
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fourth_block_cards_positive{
+    display: flex;
+    justify-content: center;
+    width: 1401px;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left_collumn_positive{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    height: 1058px;
+}
+
+p.fourth_block_left_collumn_positive{
+    font-family: 'KarloffPositivePro-BldIta';
+    font-size: 32px;
+    color: var(--text-color-gray);   
+}
+
+.cards_positive{
+    display: flex;
+    width: 1182px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 0px 16px;
+    flex-wrap: wrap;
+}
+
+h2.info_positive{
+    color: var(--text-color-gray);
+    font-family: 'KarloffPositivePro-BldIta';
+    font-size: 70px;
+    line-height: normal;
+}
+
+
+
+/* 5 блок */
+
+.fifth_block{
+    width: 1920px;
+    margin: auto;
+}
+
+.ligatures_cover{
+    margin-top: 191px;
+    background-color: var(--background-color-pink);
+    width: 1440px;
+    margin-left: 244px;
+    margin-right: 244px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ligatures_cover_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -200px;
+
+}
+
+h2.lugatures {
+    color: #FFF;
+    text-align: center;
+    font-family: 'KarloffPositivePro-RegIta';
+    font-size: 134px;
+    line-height: 90%; /* 187.6px */
+    letter-spacing: -9.38px;
+}
+
+.footnote_ligatures_2{
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+}
+
+.ligatures_cover_img{
+    margin-left: 221px;
+    margin-top: 100px;
+}
+
+.ligatures_symbols{
+    width: 1440px;
+    margin-left: 245px;
+    margin-right: 245px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.absolute_pos{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+
+}
+
+.ligatures_symbols_font_item{
+    display: flex;
+    align-items: baseline;
+    padding: 0px 14px 26px 42px;
+    background-color: var(--text-color-white);
+    height: 177px;
+
+}
+
+h3.ligatures_text_1 {
+    color: var(--background-color-black);
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: 'KarloffNegativePro-MedIta';
+    font-size: 168px;
+    line-height: 90%; 
+    margin-right: 15px;
+}
+
+h3.ligatures_text_2 {
+    color: var(--background-color-black);
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: 'KarloffNeutralPro-RegIta';
+    font-size: 168px;
+    line-height: 90%;
+    margin-right: 15px;
+}
+
+h3.ligatures_text_3 {
+    color: var(--background-color-black);
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: 'KarloffPositivePro-MedIta';
+    font-size: 168px;
+    line-height: 90%;
+    margin-right: 15px;
+}
+
+.ligatures_footnote{
+    background-color: var(--text-color-white);
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+p.ligatures_footnote{
+    color: var(--background-color-black);
+    font-family: KarloffNeutralPro-RegIta;
+    font-size: 20px;
+}
+
+.ligatures_symbols_font_item_tt{
+    display: flex;
+    align-items: center;
+    background-color: var(--text-color-white);
+    height: 285px;
+    justify-content: space-between;
+
+}
+
+h3.tt{
+    color: #161616;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: KarloffPositivePro-Reg;
+    font-size: 363px;
+    line-height: 75%;
+}
+
+.jacket{
+    background-image: url(/img/jacket.svg);
+    width: 1440px;
+    height: 396px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+
+.jacket_img{
+    width: 1156px;
+}
+
+.jecket_type{
+    position: absolute;
+    margin-top: -336px;
+    margin-left: 298px;
+    transform: rotate(-15deg);
+    color: var(--text-color-white);
+    text-align: center;
+    font-variant-numeric: oldstyle-nums proportional-nums stacked-fractions ordinal;
+    font-feature-settings: 'dlig' on, 'ss01' on, 'case' on;
+    font-family: 'KarloffPositivePro-RegIta';
+    font-size: 112px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%; /* 213.275px */
+}
+
+.about{
+    padding: 3px;
+    background-color: var(--background-color-pink);
+    width: 351px;
+}
+
+.footer{
+    width: 1440px;
+    margin: auto;
+    background-color: var(--background-color-orange);
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 80vh;
+
+}
+
+.hse_logo_row{
+    width: 1486px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+}
+
+h1.footer_text{
+    color: var(--text-color-white);
+    text-align: center;
+    font-variant-numeric: oldstyle-nums proportional-nums;
+    font-family: 'KarloffPositivePro-RegIta';
+    font-size: 134px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 90%; 
+    letter-spacing: -8.04px;
+    text-transform: capitalize;
+    width: 741px;
+}
+
+h1.features{
+    position: absolute;
+    color: var(--text-color-white);
+    text-align: center;
+    font-family: 'KarloffPositivePro-RegIta';
+    font-size: 120px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -8.351px;
+    margin-top: 91px;
+    margin-left: 761px;
+}
+
+h1.negative_pro_type{
+    position: absolute;
+    margin-top: 478px;
+    margin-left: 548px;
+    color: var(--text-color-white);
+    font-family: KarloffNegativePro-Reg;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1.positive_pro_type{
+    color: var(--text-color-white);
+    font-family: 'KarloffPositivePro-Reg';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 301px;
+    margin-left: 705px;
+}
+
+h1.neutural_pro_type{
+    color: var(--text-color-white);
+    font-family: 'KarloffNeutralPro-Reg';
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 381px;
+    margin-left: 857px;
+    position: absolute;
+    transform: rotate(15deg)
+}
+
